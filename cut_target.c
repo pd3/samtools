@@ -26,9 +26,9 @@ DEALINGS IN THE SOFTWARE.  */
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
-#include "htslib/sam.h"
-#include "errmod.h"
-#include "htslib/faidx.h"
+#include <htslib/sam.h>
+#include <htslib/errmod.h>
+#include <htslib/faidx.h>
 #include "sam_opts.h"
 
 #define ERR_DEP 0.83
